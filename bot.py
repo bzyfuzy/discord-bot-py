@@ -56,5 +56,5 @@ async def dice(ctx, dice_command: str):
     else:
         await ctx.send("Invalid dice format! Use something like `!roll 2d6+3` or `!roll d20`.")
 
-
-bot.run(token)
+if __name__ == "__main__":
+    bot.run(token)
