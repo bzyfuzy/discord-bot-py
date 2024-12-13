@@ -57,5 +57,4 @@ async def dice(ctx, dice_command: str):
         await ctx.send("Invalid dice format! Use something like `!roll 2d6+3` or `!roll d20`.")
 
 
-# Run the bot with your token
 bot.run(token)
